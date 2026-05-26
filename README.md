@@ -14,18 +14,9 @@ A full network design and simulation project implementing a 3-layer hierarchical
 
 ## Network Architecture
 
-### 3-Layer Hierarchical Model
+![Campus Network Topology](screenshots/network-topology.png)
 
-```
-                    [ Core-SW1 ] ══ EtherChannel ══ [ Core-SW2 ]
-                   /      \                         /      \
-            [Dist-SW1] [Dist-SW2]           [Dist-SW3] [Dist-SW4]
-            /    \       /    \               /    \       /    \
-        [Acc] [Acc]  [Acc] [Acc]         [Acc] [Acc]  [Acc] [Acc]
-          |     |      |     |              |     |      |     |
-        Admin  Admin   IT    IT           Lib   Lib   Class  Class
-       VLAN3  VLAN5  VLAN9 VLAN14       VLAN34 VLAN37 VLAN42 VLAN46
-```
+*Figure 1: 3-layer hierarchical campus network design*
 
 ### VLAN & IP Addressing Plan
 
