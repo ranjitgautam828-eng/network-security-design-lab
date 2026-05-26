@@ -1,4 +1,4 @@
-# Secure Campus Network Design
+# network-security-design-lab
 
 A full network design and simulation project implementing a 3-layer hierarchical campus network for the University of the Fraser Valley. Configured using Cisco IOS in Packet Tracer, covering 4 departments across 14+ devices with VLAN segmentation, redundancy, and security hardening.
 
